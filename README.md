@@ -158,8 +158,8 @@ The API will run at: **http://localhost:4000**
       "id": "123456",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald"
-      .
-      .
+      "publishedDate": "1925-04-10",
+      "numberOfPages": 180,
     }
   ]
 }
@@ -175,9 +175,9 @@ The API will run at: **http://localhost:4000**
   "book": {
     "id": "123456",
     "title": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald"
-     .
-     .
+    "author": "F. Scott Fitzgerald",
+    "publishedDate": "1925-04-10",
+    "numberOfPages": 180,
   }
 }
 ```
@@ -200,9 +200,9 @@ The API will run at: **http://localhost:4000**
   "book": {
     "id": "123456",
     "title": "The Great Gatsby - Updated Edition",
+    "author": "F. Scott Fitzgerald",
+    "publishedDate": "1925-04-10",
     "numberOfPages": 200
-    .
-    .
   }
 }
 ```
