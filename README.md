@@ -53,8 +53,8 @@ If you are running MongoDB locally, set your MONGO_URI environment variable like
 ```
 MONGO_URI=mongodb://localhost:27017/your_database_name
 ```
+###### your_database_name → Replace this with the actual database name.
 
-**your_database_name → Replace this with the actual database name.**
 
 #### 🌍 2. Using an Online MongoDB Database (MongoDB Atlas)
 
@@ -63,12 +63,10 @@ If you are using MongoDB Atlas (or another cloud MongoDB service), set your envi
 ```
 MONGO_URI=mongodb+srv://username:password@clustername.mongodb.net/your_database_name?retryWrites=true&w=majority
 ```
+###### username → Your MongoDB username
+###### password → Your MongoDB password (Do NOT expose this in public repositories)
+###### clustername → Your MongoDB cluster name from Atlas
 
-**username → Your MongoDB username.**
-
-**password → Your MongoDB password (Do NOT expose this in public repositories).**
-
-**clustername → Your MongoDB cluster name from Atlas.**
 
 ### 4️⃣ Start the Server
 ```
