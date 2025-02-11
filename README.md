@@ -48,7 +48,7 @@ COOKIE_EXPIRE=5
 
 ### 4️⃣ Start the Server
 ```
-npm start
+npm run dev
 ```
 The API will run at: **http://localhost:4000**
 
