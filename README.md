@@ -42,7 +42,8 @@ Edit environment variables **config.env** file in config folder. Edit **MONGO_UR
 PORT=4000
 MONGO_URI=your-mongodb-connection-string
 JWT_SECRET=your-jwt-secret-key
-COOKIE_EXPIRE=1d
+JWT_EXPIRE="5d"
+COOKIE_EXPIRE=5
 ```
 
 ### 4️⃣ Start the Server
