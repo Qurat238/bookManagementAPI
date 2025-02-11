@@ -46,7 +46,7 @@ JWT_EXPIRE="5d"
 COOKIE_EXPIRE=5
 ```
 **NOTE:**
-### 📌 1. Using a Local MongoDB Database
+#### 📌 1. Using a Local MongoDB Database
 
 If you are running MongoDB locally, set your MONGO_URI environment variable like this:
 
@@ -56,7 +56,7 @@ MONGO_URI=mongodb://localhost:27017/your_database_name
 
 **your_database_name → Replace this with the actual database name.**
 
-### 🌍 2. Using an Online MongoDB Database (MongoDB Atlas)
+#### 🌍 2. Using an Online MongoDB Database (MongoDB Atlas)
 
 If you are using MongoDB Atlas (or another cloud MongoDB service), set your environment variable like this:
 
